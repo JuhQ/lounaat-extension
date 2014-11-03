@@ -1,0 +1,21 @@
+.chosen-place {
+  box-shadow: 0 0 10px #000;
+  z-index: 300;
+  border-radius: 4px;
+  border: 15px solid pink;
+}
+
+.randomize-button {
+  border-radius: 3px;
+  background: red;
+  padding: 30px 20px;
+  color: #fff;
+  position: fixed;
+  left: 50%;
+  bottom: 20px;
+  width: 350px;
+  margin-left: -175px;
+  box-shadow: 0 0 10px rgba(107, 107, 107, 0.6);
+  z-index: 301;
+  border: 5px solid white;
+}

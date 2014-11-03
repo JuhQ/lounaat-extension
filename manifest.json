@@ -1,0 +1,17 @@
+{
+    "name": "Lounaat.info random picker",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "Chooses lunch place from lounaat.info",
+    "permissions": [
+      "tabs"
+    ],
+    "content_scripts": [{
+        "js": [
+            "jquery.js",
+            "lounaat.js"
+        ],
+        "run_at": "document_end",
+        "matches": ["http://lounaat.info/*"]
+    }]
+}
